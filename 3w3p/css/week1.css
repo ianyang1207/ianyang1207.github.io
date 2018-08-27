@@ -1,0 +1,144 @@
+body,html {
+  background-color: #eee;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: #999;
+  font-size: 0.75rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+.container {
+  width: 65rem;
+  margin: auto;
+}
+@media screen and (max-width: 65rem){
+  .container {
+    width: 100%;
+  }
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-gray {
+  background-color: #ccc;
+}
+
+.bg-black {
+  background-color: #111;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #999999;
+}
+
+a:hover {
+  color: #666666;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  margin-left: 2rem;
+}
+
+.logo {
+  padding-left: 2rem;
+}
+
+.carousel {
+  background-image: url('../assets/hero.jpg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 30rem;
+  background-position: center;
+  background-repeat:no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: #ffffff;
+}
+
+.carousel > h1 {
+  font-size: 4rem;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+.carousel > p {
+  font-size: 0.5rem;
+  padding: 0;
+}
+
+.button {
+  color: #ffffff;
+  padding: 0.5rem;
+  display: inline-block;
+  font-size: 0.75rem;
+  width: 9rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: rgb(93, 56, 197);
+  border: 1px solid rgb(93, 56, 197);
+}
+
+.button-outline {
+  border: 1px solid #fff;
+  background: none;
+}
+
+.ad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ad > div {
+  width: 50%;
+  padding: 2rem 5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.footer {
+  padding: 2rem 4rem;
+  color: #999;
+}
+
+.copyright > b {
+  color: #fff;
+}
